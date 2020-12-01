@@ -1,0 +1,34 @@
+.cards {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards__item {
+  margin-bottom: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+  border: 1px solid lavender;
+}
+
+.cards__img {
+  max-width: 30rem;
+}
+
+.cards__text {
+  margin: 20px;
+}
+
+@media (max-width: 760px) {
+  .cards__item {
+    flex-direction: column;
+  }
+
+  .cards__img {
+    width: 100%;
+  }
+}
