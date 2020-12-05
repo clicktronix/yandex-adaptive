@@ -1,2 +1,2 @@
 # yandex-adaptive-demo
-Repository for demonstrate responsive layout
+Repository for demonstrate responsive layout at the webinar
